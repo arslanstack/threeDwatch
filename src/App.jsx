@@ -2,7 +2,7 @@ import { Canvas } from '@react-three/fiber';
 import { Suspense, useEffect, useState } from 'react';
 import Loader from './components/Loader';
 import Beartrap from './models/Beartrap';
-import Watch from './models/watch';
+import Watch from './models/Watch';
 function App() {
 
   const [isRotating, setIsRotating] = useState(false)
